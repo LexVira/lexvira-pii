@@ -1,0 +1,70 @@
+[
+ {
+  "girdi": "TC kimlik no 10000000146 olan davacı",
+  "beklenen": "TC kimlik no [TC-KİMLİK-GİZLİ] olan davacı"
+ },
+ {
+  "girdi": "geçersiz TC 12345678901",
+  "beklenen": "geçersiz TC 12345678901"
+ },
+ {
+  "girdi": "0 ile başlayan 01234567890",
+  "beklenen": "0 ile başlayan [TELEFON-GİZLİ]"
+ },
+ {
+  "girdi": "Tel: +90 532 123 45 67",
+  "beklenen": "Tel: [TELEFON-GİZLİ]"
+ },
+ {
+  "girdi": "tel 0 (212) 555 12 34",
+  "beklenen": "tel [TELEFON-GİZLİ]"
+ },
+ {
+  "girdi": "0532 1234567",
+  "beklenen": "[TELEFON-GİZLİ]"
+ },
+ {
+  "girdi": "IBAN TR33 0006 1005 1978 6457 8413 26",
+  "beklenen": "IBAN [IBAN-GİZLİ]"
+ },
+ {
+  "girdi": "TR330006100519786457841326 hesabına",
+  "beklenen": "[IBAN-GİZLİ] hesabına"
+ },
+ {
+  "girdi": "e-posta: avukat.deneme@ornek-buro.com.tr",
+  "beklenen": "e-posta: [EMAIL-GİZLİ]"
+ },
+ {
+  "girdi": "34 ABC 1234 plakalı",
+  "beklenen": "[PLAKA-GİZLİ] plakalı"
+ },
+ {
+  "girdi": "06 A 12345",
+  "beklenen": "[PLAKA-GİZLİ]"
+ },
+ {
+  "girdi": "TBK m. 344 ve 6100 sayılı Kanun",
+  "beklenen": "TBK m. 344 ve 6100 sayılı Kanun"
+ },
+ {
+  "girdi": "Madde 12/3 uyarınca",
+  "beklenen": "Madde 12/3 uyarınca"
+ },
+ {
+  "girdi": "82 ABC 123 geçersiz il",
+  "beklenen": "82 ABC 123 geçersiz il"
+ },
+ {
+  "girdi": "Davacı vekili; tel 05321234567, e-posta x@y.co, TC 10000000146.",
+  "beklenen": "Davacı vekili; tel [TELEFON-GİZLİ], e-posta [EMAIL-GİZLİ], TC [TC-KİMLİK-GİZLİ]."
+ },
+ {
+  "girdi": "İletişim: ŞİRKET@ÖRNEK.COM ve 35 ÇĞ 4567",
+  "beklenen": "İletişim: [EMAIL-GİZLİ] ve [PLAKA-GİZLİ]"
+ },
+ {
+  "girdi": "Aynı TC iki kez: 10000000146 ve 10000000146",
+  "beklenen": "Aynı TC iki kez: [TC-KİMLİK-GİZLİ] ve [TC-KİMLİK-GİZLİ]"
+ }
+]

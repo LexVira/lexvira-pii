@@ -1,0 +1,3 @@
+{
+  "_aciklama": "Python PIIFilter'dan bilinçli TS farkları. Boş: 2026-10-03'te ai-service düzeltildi (boşluksuz IBAN, Unicode e-posta; commit d1907286c) ve parite tam. Yeni bir fark eklenirse girdi + ts_beklenen + neden yazılır."
+}

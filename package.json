@@ -1,0 +1,48 @@
+{
+  "name": "@lexvira/maskeleme",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Deterministic Turkish and multilingual PII detection, masking, and session-safe restoration.",
+  "homepage": "https://www.lexvira.com/en/legal-research-api?utm_source=huggingface&utm_medium=pii-package&utm_campaign=faz1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lexvira/lexvira-pii.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lexvira/lexvira-pii/issues"
+  },
+  "type": "module",
+  "main": "./dist/public.js",
+  "types": "./dist/public.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/public.d.ts",
+      "import": "./dist/public.js"
+    },
+    "./internal": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "veri",
+    "test-vektorleri",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node scripts/uzanti-ekle.mjs",
+    "test": "pnpm run build && vitest run",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.3",
+    "vitest": "^4.1.10"
+  }
+}

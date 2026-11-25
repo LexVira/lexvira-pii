@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+# Yer tutucu PyPI adı — ad kullanıcı onayıyla kesinleşecek.
+name = "lexvira-pii"
+version = "0.1.0"
+description = "Deterministic Turkish and multilingual PII detection and masking."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = []
+authors = [{ name = "LexVira" }]
+keywords = ["pii", "kvkk", "gdpr", "turkish", "masking", "legal", "nlp"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Legal Industry",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Text Processing",
+]
+
+[project.urls]
+Homepage = "https://www.lexvira.com/en/legal-research-api?utm_source=huggingface&utm_medium=pii-package&utm_campaign=faz1"
+Repository = "https://github.com/lexvira/lexvira-pii"
+Issues = "https://github.com/lexvira/lexvira-pii/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lexvira_pii"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "src/lexvira_pii/**",
+  "tests/**",
+  "README.md",
+  "LICENSE",
+  "pyproject.toml",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

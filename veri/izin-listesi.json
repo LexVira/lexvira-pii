@@ -1,0 +1,143 @@
+{
+ "_aciklama": "Kamuya açık kurum/mahkeme adları: içlerine düşen KİŞİ/PII span'leri maskelenmez. Kişi adı taşıyan kurum (ör. bir kişinin adını taşıyan üniversite) EKLENMEZ.",
+ "tr": [
+  "Aile Mahkemesi",
+  "Anayasa Mahkemesi",
+  "Asliye Ceza Mahkemesi",
+  "Asliye Hukuk Mahkemesi",
+  "Asliye Ticaret Mahkemesi",
+  "Ağır Ceza Mahkemesi",
+  "Bölge Adliye Mahkemesi",
+  "Bölge İdare Mahkemesi",
+  "Cumhuriyet Başsavcılığı",
+  "Danıştay",
+  "Hâkimler ve Savcılar Kurulu",
+  "Kişisel Verileri Koruma Kurumu",
+  "Rekabet Kurumu",
+  "Sayıştay",
+  "Sermaye Piyasası Kurulu",
+  "Sulh Ceza Hâkimliği",
+  "Sulh Hukuk Mahkemesi",
+  "Tüketici Mahkemesi",
+  "Türkiye Büyük Millet Meclisi",
+  "Türkiye Cumhuriyet Merkez Bankası",
+  "Türkiye İstatistik Kurumu",
+  "Uyuşmazlık Mahkemesi",
+  "Vergi Mahkemesi",
+  "Yargıtay",
+  "İcra Dairesi",
+  "İcra Hukuk Mahkemesi",
+  "İdare Mahkemesi",
+  "İş Mahkemesi"
+ ],
+ "en": [
+  "Environmental Protection Agency",
+  "Federal Bureau of Investigation",
+  "Internal Revenue Service",
+  "Supreme Court of the United States",
+  "United States Court of Appeals for the Ninth Circuit",
+  "United States Court of Appeals for the Second Circuit",
+  "United States Department of Justice",
+  "United States District Court for the District of Columbia"
+ ],
+ "de": [
+  "Bundesarbeitsgericht",
+  "Bundesfinanzhof",
+  "Bundesgerichtshof",
+  "Bundeskriminalamt",
+  "Bundespolizei",
+  "Bundessozialgericht",
+  "Bundesverfassungsgericht",
+  "Bundesverwaltungsgericht"
+ ],
+ "fr": [
+  "Commission nationale de l'informatique et des libertés",
+  "Conseil constitutionnel",
+  "Conseil d'État",
+  "Conseil supérieur de la magistrature",
+  "Cour de cassation",
+  "Cour des comptes",
+  "Défenseur des droits",
+  "Haute Autorité pour la transparence de la vie publique"
+ ],
+ "es": [
+  "Agencia Española de Protección de Datos",
+  "Audiencia Nacional",
+  "Consejo General del Poder Judicial",
+  "Consejo de Estado",
+  "Defensor del Pueblo",
+  "Fiscalía General del Estado",
+  "Tribunal Constitucional",
+  "Tribunal Supremo"
+ ],
+ "it": [
+  "Autorità Garante della Concorrenza e del Mercato",
+  "Consiglio Superiore della Magistratura",
+  "Consiglio di Stato",
+  "Corte costituzionale",
+  "Corte dei conti",
+  "Corte di cassazione",
+  "Ministero dell'interno",
+  "Ministero della giustizia"
+ ],
+ "nl": [
+  "Autoriteit Consument & Markt",
+  "Autoriteit Persoonsgegevens",
+  "Belastingdienst",
+  "Centrale Raad van Beroep",
+  "College van Beroep voor het bedrijfsleven",
+  "Hoge Raad der Nederlanden",
+  "Openbaar Ministerie",
+  "Raad van State"
+ ],
+ "pt": [
+  "Assembleia da República",
+  "Conselho Superior da Magistratura",
+  "Procuradoria-Geral da República",
+  "Provedor de Justiça",
+  "Supremo Tribunal Administrativo",
+  "Supremo Tribunal de Justiça",
+  "Tribunal Constitucional",
+  "Tribunal de Contas"
+ ],
+ "ru": [
+  "Верховный Суд Российской Федерации",
+  "Генеральная прокуратура Российской Федерации",
+  "Конституционный Суд Российской Федерации",
+  "Министерство внутренних дел Российской Федерации",
+  "Следственный комитет Российской Федерации",
+  "Счётная палата Российской Федерации",
+  "Федеральная налоговая служба",
+  "Центральная избирательная комиссия Российской Федерации"
+ ],
+ "az": [
+  "Azərbaycan Respublikasının Ali Məhkəməsi",
+  "Azərbaycan Respublikasının Baş Prokurorluğu",
+  "Azərbaycan Respublikasının Daxili İşlər Nazirliyi",
+  "Azərbaycan Respublikasının Hesablama Palatası",
+  "Azərbaycan Respublikasının Konstitusiya Məhkəməsi",
+  "Azərbaycan Respublikasının Mərkəzi Seçki Komissiyası",
+  "Azərbaycan Respublikasının İnsan Hüquqları üzrə Müvəkkili",
+  "Azərbaycan Respublikasının Ədliyyə Nazirliyi"
+ ],
+ "kk": [
+  "Қазақстан Республикасы Ішкі істер министрлігі",
+  "Қазақстан Республикасы Орталық сайлау комиссиясы",
+  "Қазақстан Республикасы Ұлттық қауіпсіздік комитеті",
+  "Қазақстан Республикасы Әділет министрлігі",
+  "Қазақстан Республикасындағы Адам құқықтары жөніндегі уәкіл",
+  "Қазақстан Республикасының Бас прокуратурасы",
+  "Қазақстан Республикасының Жоғарғы Соты",
+  "Қазақстан Республикасының Конституциялық Соты"
+ ],
+ "uz": [
+  "O‘zbekiston Respublikasi Adliya vazirligi",
+  "O‘zbekiston Respublikasi Bosh prokuraturasi",
+  "O‘zbekiston Respublikasi Hisob palatasi",
+  "O‘zbekiston Respublikasi Ichki ishlar vazirligi",
+  "O‘zbekiston Respublikasi Konstitutsiyaviy sudi",
+  "O‘zbekiston Respublikasi Markaziy banki",
+  "O‘zbekiston Respublikasi Oliy Majlisi",
+  "O‘zbekiston Respublikasi Oliy sudi"
+ ]
+}
