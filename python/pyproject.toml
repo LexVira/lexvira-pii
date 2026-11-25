@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 # Yer tutucu PyPI adı — ad kullanıcı onayıyla kesinleşecek.
 name = "lexvira-pii"
-version = "0.1.0"
+version = "0.1.1"
 description = "Deterministic Turkish and multilingual PII detection and masking."
 readme = "README.md"
 license = "Apache-2.0"

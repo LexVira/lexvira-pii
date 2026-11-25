@@ -2,8 +2,6 @@
 
 Deterministic Turkish and multilingual PII detection and masking for Python, sharing test-vector parity with `@lexvira/maskeleme`.
 
-> Note: Package name `lexvira-pii` is a placeholder pending final PyPI naming confirmation.
-
 ## Installation
 
 ```bash
